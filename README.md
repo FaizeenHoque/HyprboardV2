@@ -36,8 +36,6 @@ HyprboardV2 is a compact, RP2040-based development board and the completed succe
 
 ## 🧾 Bill of Materials (BOM)
 
-Full BOM is in [`/bom/HyprboardV2_BOM.csv`](./bom/HyprboardV2_BOM.csv).
-
 | Ref | Component | Value / Part No. | Qty | Notes |
 |-----|-----------|------------------|-----|-------|
 | U1 | RP2040 | `RP2040` | 1 | Main MCU |
