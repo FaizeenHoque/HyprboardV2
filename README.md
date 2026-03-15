@@ -6,30 +6,28 @@ HyprboardV2 is a compact, RP2040-based development board and the completed succe
 
 ---
 
-## 📐 Schematic
+## Schematic
 
 ![Schematic](https://stasis.hackclub-assets.com/images/1772831681282-xnd50o.png)
 
 ---
 
-## 🖥️ PCB
+## PCB
 
 <img width="352" height="591" alt="image" src="https://github.com/user-attachments/assets/19c777e5-ef37-40b1-9531-79cc9fdc86ea" />
 
 ---
 
-## 🖼️ Renders
+## Renders
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dd50d008-5c01-4d63-9dc6-1427fbf1e1d9" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1ce6cec0-2621-4fff-8176-df455321201c" />
 
 ---
 
-## 🧾 Bill of Materials (BOM)
-
 # Bill of Materials (BOM)
 
-Manufactured by [JLCPCB](https://jlcpcb.com) · PCB Qty: 5 · Est. Total: **$15.50**
+Manufactured by [JLCPCB](https://jlcpcb.com) · PCB Qty: 5 · Est. Total: **$51.7** (+ PCBA)
 
 > Parts marked **Extended** may incur an additional setup fee at JLCPCB.  
 > Headers (J2, J3, J4) are through-hole and excluded from SMT assembly — solder manually.
