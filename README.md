@@ -67,6 +67,41 @@ Manufactured by [JLCPCB](https://jlcpcb.com) · PCB Qty: 5 · Est. Total: **$51.
 
 ---
 
+## Getting Started
+
+### Flashing Firmware
+
+The Hyprboard V2 uses the **RP2040** microcontroller. It supports the
+**Raspberry Pi Pico SDK**, **MicroPython**, and **CircuitPython**.
+
+#### Entering Bootloader Mode (BOOTSEL)
+
+The board has one button (SW1) which serves as the BOOTSEL button.
+
+1. Hold **SW1**
+2. Plug in USB-C
+3. Release **SW1**
+4. The board will appear as a USB drive called `RPI-RP2`
+5. Drag and drop your `.uf2` firmware file onto it
+6. The board reboots and runs your firmware automatically
+
+#### Toolchain Options
+
+| Option | Best For | Link |
+|---|---|---|
+| Pico SDK (C/C++) | Performance, low-level control | [Getting Started Guide](https://datasheets.raspberrypi.com/pico/getting-started-with-pico.pdf) |
+| MicroPython | Rapid prototyping | [micropython.org](https://micropython.org/download/RPI_PICO/) |
+| CircuitPython | Beginner friendly | [circuitpython.org](https://circuitpython.org/board/raspberry_pi_pico/) |
+
+### Hardware Notes
+
+- **Flash:** 16Mbit (2MB) W25Q16 external flash via QSPI
+- **Crystal:** 12MHz — configure your SDK clock accordingly
+- **Power:** 3.3V via MCP1700T LDO, input from USB-C (5V)
+- **USB:** USB 2.0 Full Speed via USB-C (J1)
+
+---
+
 ## Notes
 
 - **R3, R4 (27Ω):** USB D+/D− series resistors. Value is correct per RP2040 hardware design guide.
